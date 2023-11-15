@@ -1,4 +1,5 @@
 # 11th November 2023 - Phone (TIZEN & WEAROS) SHM MOD 1.2.2.005
+ * Patch #1 - WearOS - fixed a permission that was causing installation error (conflict with existing installed stock SHM)
 ---
 Here is what I observed on phone SHM 1.2.2.005:
  * I don't see much of changes in UI...
