@@ -1,2 +1,3 @@
 # Current Known Bugs:
  * IHRN gets suspended even after whitelisting and removing SHM from battery optimizations. IHRN is not fully stable yet...
+ * Virus Total flagged Samsung Stock SHM with TROJ_GEN.R002V01J323 - which means MODs will have it as well, what did you do Samsung...?
