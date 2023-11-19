@@ -62,7 +62,7 @@ SHM MOD Companion Phone and Watch 4.0.0
 ---
 
 ### March 2023
-*16th March 2023
+* 16th March 2023
 SHM Companion MOD Phone 3.0.5 and Watch 2.6.5
  * Cleaning Code and UI...
  * Furthermore stability...
