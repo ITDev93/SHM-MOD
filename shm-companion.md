@@ -48,8 +48,6 @@ SHM MOD Companion Phone and Watch 4.3.0
 
 ---
 
-### July 2023 - Nothing happened
-
 ### June 2023
  * 21st June 2023
 ---
@@ -62,8 +60,6 @@ SHM MOD Companion Phone and Watch 4.0.0
  * Updated instructions on the watch section, adding visuals alongside text should help you even more...
 
 ---
-
-### April, May, June, July 2023 - Nothing happened
 
 ### March 2023
 *16th March 2023
