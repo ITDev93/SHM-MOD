@@ -1,11 +1,16 @@
-# 4th September 2023
-SHM MOD Companion Phone 4.6.0
- * Set up CloudFlare CDNs as Fallback Links (paid for it), so you should not face any download issues anymore...
+# 19th November 2023
+SHM MOD Companion Phone and Watch 5.0.0
+ * The Phone received a new Network Discovery feature, an automated feature connecting to your watch wireless debugging to your phone. You need to keep the watch screen active on Wireless Debugging while the app scans and detects your Watch IP and Ports, whether you want to Pair or Connect...
+ * The Phone Guide has been updated to include some description about Network Discovery...
+ * The watch Version was pushed up to match the phone version but its libraries were updates to the latest version as quality enhancements...
 
 ~~
 
 # History
 ## 2023
+### September 2023
+ * 4th September 2023
+>SHM MOD Companion Phone 4.6.0 - Set up CloudFlare CDNs as Fallback Links (paid for it), so you should not face any download issues anymore...
 ### August 2023
  * 18th August 2023
 SHM MOD Companion Phone and Watch 4.5.0
