@@ -1,8 +1,14 @@
-# 9th August 2023
- * IHRN Feature unlocked...
- * Lowered WearOS Requirement, it can work on old WearOS 3.5...
- * Fixed a bug where IHRN measurements would notify (vibrate + sound) every 10 mins with wrong message "afib detected"...
- * Fixed Double BP and ECG tiles...
+# 11th November 2023 - 1.2.2.005
+ * a new layout added "BP not supported", this means BP will be controlled from the watch as well...
+ * They added several messages "need a samsung device to uuse SHM", and "BP not approved in your region", also for calibratiion, they changed the message into "Wear your watch snugly, away from the wrist bone. Also, relax your hands and arms."
+ * They added Device ID Service, probably to get the Device ID and not generate it randomly...
+ * Well, the code i removed in SHM MOD 1.2.1.009, they have removed it in 1.2.2.005, this code was causing random crashes, this means my decision was correct...
+ * IHRN on watch is heavily patched, hopefully it will stop IHRN suspending because the code looks promising now but I don't see any fix for the messages, vibrations and sounds... 
+ * Chinese simplified has a custom icon for BP and ECG tiles...
+ * Watch detects phone model, if not Samsung, show message "Samsung device required for using shm"
+
+I still had to apply same patches for IHRN in Watch SHM:
+ * Samsung IHRN auto-measurements were using wrong display messages (showing afib detected instead of auto measurement) and triggers sound + vibration notification every 10 minutes, I have fixed this by putting approprite message and set the notification as silent...
 
 ~~
 
@@ -11,9 +17,16 @@
 > Old History does not have detailed changelog, because I was only patching in the past
 
 ## 2023
-### March till July 2022 - Nothing happened
-
+### August 2023
+ * 9th August 2023 - 1.2.1.009
+---
+ * IHRN Feature unlocked...
+ * Lowered WearOS Requirement, it can work on old WearOS 3.5...
+ * Fixed a bug where IHRN measurements would notify (vibrate + sound) every 10 mins with wrong message "afib detected"...
+ * Fixed Double BP and ECG tiles...
 ### Februray 2023 - Tizen + WearOS
+---
+
  * 13th Feb 2023 - SHM 225 (Watch) released
 ---
  > Patch #1 - 17th Feb 2023 - Forgot to add the custom languages into the mod, ex: malaysia, japaanese, chinese, etc...
@@ -21,13 +34,7 @@
  * More optimization in BP and ECG Code (might be me but recording is slightly faster)...
 ---
 
-### January 2023 - Nothing happened this month
-
 ## 2022
-### December 2022 - Nothing happened this month
-
-### November 2022 - Nothing happened this month
-
 ### October 2022
  * 24th Oct 2022 - SHM 221 (Watch) released.
 ---
@@ -35,8 +42,6 @@
  * Optimization in BP and ECG Code...
  * Polished UI Interface a bit...
 ---
-
-### September 2022 - Nothing happened this month
 
 ### August 2022
  * 17th Aug 2022 - SHM 215 (Watch) released
@@ -52,22 +57,12 @@
  * Wear connectivity code has changed as well...
 ---
 
-### May, June, July 2022 - Nothing happened these months
-
 ### April 2022 - SHM 203 (Watch) released - no changelog was made...
-
-### March 2022 - Nothing happened this month
 
 ### Februray 2022 - SHM 193 (Watch) released - no changelog was made...
 
-### January 2022 - Nothing happened this month
-
 ## 2021
-### December 2021 - Nothing happened this month
-
 ### November 2021 - SHM 185 (Watch) released - no changelog was made...
-
-### October 2022 - Nothing happened this month
 
 ### September 2021 - SHM 157 (Watch) released - no changelog was made...
 
