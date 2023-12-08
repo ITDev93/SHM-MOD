@@ -1,10 +1,20 @@
-# 19th November 2023
+# 9th December 2023
+SHM MOD Companion Phone 5.3.0
+ * Reduced App Size...
+ * Fixed Layout Bugs...
+
+~~
+
+# History
+## 2023
+### November 2023
+ * 19th September 2023
 > Patch 5.2.6 - Install will no longer print Exit code 1 with minimal details it will print full details now...
-
+> 
 > Patch 5.2.5 - Fixed Language Selection bug...
-
+> 
 > Patch 5.2.0 - Fixed Network Discovery bug, handled discovery button not hiding when calling companion...
-
+> 
 > Patch 5.1.0 - Added layout about ECG Excel to PDF, Show uninstall button for ECG Tile Enabler when stock or mod is installed, and Did some code cleaning with messages fixing...
 
 SHM MOD Companion Phone and Watch 5.0.0
@@ -14,10 +24,7 @@ SHM MOD Companion Phone and Watch 5.0.0
  * Fixed some bugs in Phone layouts...
  * The watch Version was pushed up to match the phone version but its libraries were updates to the latest version as quality enhancements...
 
-~~
-
-# History
-## 2023
+---
 ### September 2023
  * 4th September 2023
 >SHM MOD Companion Phone 4.6.0 - Set up CloudFlare CDNs as Fallback Links (paid for it), so you should not face any download issues anymore...
