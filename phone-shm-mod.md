@@ -1,5 +1,25 @@
-# 11th November 2023 - Phone (TIZEN & WEAROS) SHM MOD 1.2.2.005
- * Patch #1 - WearOS - fixed a permission that was causing installation error (conflict with existing installed stock SHM)
+# 11th November 2023 - Phone (TIZEN & WEAROS) SHM MOD 1.2.4.003
+---
+GUI:
+- assets has country code IN -  india with both BP and ECG documents, this is a clear indicator of support...
+- plenty of permissions removed, this will probably solve the issue of SHM being flagged by TotalVirus (I already checked, this apk is safe)...
+- Diagnostic added (might be for Samsung Members aka Samsung devices only)
+- backup service updated (this might be backup and restore logic activated)
+- Samsung India address added...
+- I can see Sleep duration strings, not sure what this is, I will know when I look at the code...
+
+CODE:
+- CSCUtil confirms India got ECG and BP but not IHRN...
+- I can confirm sleep layout and sleep tracking added but I do not see it being used anywhere nor even called - I can confirm sleep is not active from the manifest, probably future implementation...
+
+~~
+
+# History
+> Some Old History does not have a detailed changelog, because I was only patching in the past
+
+## 2023
+### November 2023 - Phone (TIZEN & WEAROS) SHM MOD 1.2.2.005
+ > Patch #1 - WearOS - fixed a permission that was causing installation error (conflict with existing installed stock SHM)
 ---
 Here is what I observed on phone SHM 1.2.2.005:
  * I don't see much of changes in UI...
@@ -10,16 +30,7 @@ Here is what I observed on phone SHM 1.2.2.005:
  * looky here, they changed the CSC logic, it will be bad news too those who changed watch CSC to get and use stock, now they are calling build.prop "ro.csc.sales_code" and I am betting this CSC is fixed to country of Sale and not the CSC we change (do correct me if I am wrong)
  * they are enforcing age check to be 22 and above, not sure how if calendrer is set by the user...?
  * BP Alarm i spoke of turns out to be scheduled for BP sensor...
-
-~~
-
-# History
-> Some Old History does not have a detailed changelog, because I was only patching in the past
-
-## 2023
-### October 2023 - Nothing happened this month
-
-### September 2023 - Nothing happened this month
+---
 
 ### August 2023 
  * 9th August 2023 - Phone (TIZEN & WEAROS) SHM MOD 1.1.4.002 (phone - it may be the last working version for Androids with OS 7 and 8) and 1.2.1.009 (watch and phone - this works on android 9 and above)
