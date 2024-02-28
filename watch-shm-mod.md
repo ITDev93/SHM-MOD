@@ -1,4 +1,6 @@
 # 15th January 2024 - 1.2.5.002
+ > Patch #2 - 28th Feb 2024 - Fixed issue with BP measurement Resources due to bad compilation...
+
  > Patch #1 - 26th Feb 2024 - Patched the service module, adding isRunning flag to the service module to check if service is running or not, and Added method StartService on MainActivity, this will ensure all services of SHM MOD on the watch are running (including IHRN), because of the flag isRunning, the Service will only start if it's not running (graceful handle)...
 
 GUI:
