@@ -1,4 +1,29 @@
+# 8th April 2024 - Phone (TIZEN & WEAROS) SHM MOD 1.2.5.003
+Android Manifest:
+- Manifest shows line to use native-library libhal.wsm (deleted because this detects knox state and makes shm not work on custom/rooted Samsung)
+
+GUI:
+- Assets have the country code MU—Mauritius, but no BP and ECG documents, so the next step would be to check the code for this country to confirm.
+- Some strings related to BP were changed from measuring BP on your watch to Measuring BP, probably for Galaxy Ring Measurement? there is no mention of the Ring either way...
+- Samsung removed their address in India...
+- Switching all fonts to OneUiSans...
+
+CODE:
+- CSCUtil confirms MU has ECG and BP but not IHRN...
+- Some minor modifications in BP, ECG, IHRN and some activities - namings - not visible to user...
+- Samsung Health Data Permission logic added and binding Health Profile Data to SHM - nothing new here, just rewritten everything, either way, this cannot be performed with mod...
+
+Note:
+- Patching this was a wild ride due to renaming plenty of classes and functions, whenever I applied a patch, the app would crash because my patch has old namings, but all is well...
+
+~~
+
+# History
+> Some Old History does not have a detailed changelog, because I was only patching in the past
+
+## 2024
 # 20th January 2024 - Phone (TIZEN & WEAROS) SHM MOD 1.2.4.003
+---
 GUI:
 - assets has country code IN -  india with both BP and ECG documents, this is a clear indicator of support...
 - plenty of permissions removed, this will probably solve the issue of SHM being flagged by TotalVirus (I already checked, this apk is safe)...
@@ -10,11 +35,7 @@ GUI:
 CODE:
 - CSCUtil confirms India got ECG and BP but not IHRN...
 - I can confirm sleep layout and sleep tracking added but I do not see it being used anywhere nor even called - I can confirm sleep is not active from the manifest, probably future implementation...
-
-~~
-
-# History
-> Some Old History does not have a detailed changelog, because I was only patching in the past
+---
 
 ## 2023
 ### November 2023 - Phone (TIZEN & WEAROS) SHM MOD 1.2.2.005
