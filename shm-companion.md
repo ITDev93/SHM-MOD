@@ -1,6 +1,6 @@
 # 6th May 2024 - Companion phone 6.0.1 and watch 5.5.0
+
  ** Phone:
- 
 > Patch 6.0.1 - Fixed bug when initial IP value is null, set as 192.168.1.1...
 ---
 Major Changes:
