@@ -2,7 +2,8 @@
 ## ** Phone:
 > Patch 6.0.1 - Fixed bug when initial IP value is null, set as 192.168.1.1...
 ---
-Phone 6.0.0:
+### Phone 6.0.0
+
 Major Changes:
  - Accessibility Feature - Read logs for Vision-impaired and blind users, because screen reader cannot detect changes in text changes...
  - Watch Tab Updated - Merged Network Discovery Features with Wireless Debugging and named it as Easy Connect
