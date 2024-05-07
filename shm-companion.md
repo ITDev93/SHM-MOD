@@ -1,5 +1,6 @@
-# 6th May 2024 - Companion phone 6.0.0 and watch 5.5.0
+# 6th May 2024 - Companion phone 6.0.1 and watch 5.5.0
  ** Phone:
+> Patch 6.0.1 - Fixed bug when initial IP value is null, set as 192.168.1.1...
 ---
 Major Changes:
  - Accessibility Feature - Read logs for Vision-impaired and blind users, because screen reader cannot detect changes in text changes...
