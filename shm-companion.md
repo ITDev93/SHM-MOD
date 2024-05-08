@@ -1,5 +1,7 @@
-# 6th May 2024 - Companion phone 6.0.1 and watch 5.5.0
+# 6th May 2024 - Companion phone 6.0.5 and watch 5.5.0
 ## ** Phone:
+> Patch 6.0.5 - Updated Text "Pairing" to "Please Wait" + Greatly improved connectivity...
+
 > Patch 6.0.1 - Fixed bug when initial IP value is null, set as 192.168.1.1...
 ---
 ### Phone 6.0.0
