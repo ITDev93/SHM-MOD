@@ -1,4 +1,9 @@
 # 8th April 2024 - 1.2.6.002
+
+> Patch #1 - 14th May 2024 - This Patch is mainly for those with Custom ROM with device Spoofing that has Bluetooth Class not correctly configured by the ROM/Kernel developer...
+>  - Bluetooth Device Class check... if SmartPhone (524) return true, else returns false device is not SMART_PHONE
+>  - Override and return true always
+
 Android Manifest:
 - Nothing New observed...
 
