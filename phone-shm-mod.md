@@ -1,4 +1,29 @@
-# 8th April 2024 - Phone (TIZEN & WEAROS) SHM MOD 1.2.5.003
+# 4th Sept 2024 - Phone (TIZEN & WEAROS) SHM MOD 1.3.2.016
+Android Manifest:
+- Sleep Apnea observed, added and activated...
+
+GUI:
+- Sleep Apnea strings added, instructions, warnings, tips...
+- IFU strings (instructions for use) added, calling online sources...
+- Sleep Apnea illustrations and images added...
+
+CODE:
+- JNI removed, this is great...
+- Phone checks watch battery, if less than 30%, it will not record Sleep Apnea...
+- Fetch Instructions for Use from the internet, fallback to local files...
+- Class renaming Observed, will need to map old classes with new ones when applying Patches...
+- List of countries and restrictions are clearer - in previous post (https://t.me/xda_dante63/118)...
+
+Note:
+- There is a bug (including stock SHM), You may notice in Apnea tab, the button (instructions for use) does not work for some of you, it was fixed in a later release by hiding it depending on region, so ignore the button...
+
+~~
+
+# History
+> Some Old History does not have a detailed changelog, because I was only patching in the past
+
+## 2024
+### 8th April 2024 - Phone (TIZEN & WEAROS) SHM MOD 1.2.5.003
 Android Manifest:
 - Manifest shows line to use native-library libhal.wsm (deleted because this detects knox state and makes shm not work on custom/rooted Samsung)
 
@@ -15,14 +40,8 @@ CODE:
 
 Note:
 - Patching this was a wild ride due to renaming plenty of classes and functions, whenever I applied a patch, the app would crash because my patch has old namings, but all is well...
-
-~~
-
-# History
-> Some Old History does not have a detailed changelog, because I was only patching in the past
-
-## 2024
-# 20th January 2024 - Phone (TIZEN & WEAROS) SHM MOD 1.2.4.003
+---
+### 20th January 2024 - Phone (TIZEN & WEAROS) SHM MOD 1.2.4.003
 ---
 GUI:
 - assets has country code IN -  india with both BP and ECG documents, this is a clear indicator of support...
