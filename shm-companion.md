@@ -1,10 +1,41 @@
-# 6th May 2024 - Companion phone 6.0.5 and watch 5.5.0
-## ** Phone:
+# 2nd Sept 2024 - Companion phone 6.5.1 and watch 6.0.1
+## ** Watch & Phone:
+> Patch 6.5.1 & 6.0.1 - handling version name shown incorrectly...
+---
+### Phone 6.5.0
+
+Major Changes:
+ - Add Layout in Watch Tab, SHM MOD Extra Steps, visible when wirelessly  connected to your watch...
+    *** After you adb connect to your watch from companion, a new layout will be visible if you have shm mod installed, the layout will have two buttons, one to check for permissions and grant all, another is for battery optimizations and turn it off, these buttons must be Green and not Red in order for new SHM MOD to work on One Ui6...
+ - Any New installs/sideloads to your watch using Companion on phone will auto grant permissions and whitelist the app automatically...
+    *** As always, I try to make everything as simple as possible, one button does all...
+
+Minor Changes:
+ - Small patches to connectivity for Watch Companion 6.0.0...
+ - Translations added...
+
+### Watch 6.5.0
+Major Changes:
+ - Silent Send IP or Versions to Phone...
+   *** Previously, when you press on your phone companion "Pull Network info" or "check for updates", it hangs a bit because the app tries to run on your watch, I have updated the logic to run in foreground, this reduces delay and improves responsiveness...
+
+Minor Changes:
+- Translations added...
+
+~~
+
+# History
+## 2024
+### May 2024
+#### 6th May 2024 - Companion phone 6.0.7 and watch 5.5.0
+#### Phone Patches:
+> Patch 6.0.7 - handling some cases in easy connect layout that can lead the app to performing connect when you want to pair...
+
 > Patch 6.0.5 - Updated Text "Pairing" to "Please Wait" + Greatly improved connectivity...
 
 > Patch 6.0.1 - Fixed bug when initial IP value is null, set as 192.168.1.1...
 ---
-### Phone 6.0.0
+#### Phone 6.0.0
 
 Major Changes:
  - Accessibility Feature - Read logs for Vision-impaired and blind users, because screen reader cannot detect changes in text changes...
@@ -34,11 +65,6 @@ Major Changes:
 Minor Changes:
  - Code Optimization - I have re-written some code... 
 ---
-
-~~
-
-# History
-## 2024
 ### January 2024
  * 24th January 2024 - Companion phone 5.8.0 
 ---
