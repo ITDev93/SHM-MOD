@@ -1,6 +1,7 @@
 # 2nd Sept 2024 - Companion phone 6.6.0 and watch 6.0.1
 ## ** Watch & Phone:
 > Phone 6.6.0 - polish easy connect interface and add ports for manual connect...
+
 > Patch 6.5.1 & 6.0.1 - handling version name shown incorrectly...
 ---
 ### Phone 6.5.0
