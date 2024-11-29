@@ -1,12 +1,50 @@
-# 2nd Sept 2024 - Companion phone 6.6.5 and watch 6.0.1
-## ** Watch & Phone:
+# 29th Nov 2024 - Companion phone 7.1.0 and watch 6.5.0
+## ** Patches:
+> Phone 7.1.0:
+---
+- Added ADB server test in background, if it fails to start, a message will pop-up, this is useful for cases like Oppo, Realme and OnePlus as people think they might be doing something wrong and waste many hours, not knowing the cause...
+
+- Split process and buffer into 2 threads to prevent buffer blocking process, this is useful for cases where for some reason the screen gets stuck on connecting or pairing infinitely...
+
+- Fixed a bug related to granting companion install permissions on watch, where it is not granted, and the button is not visible after installation...
+---
+> Phone 7.0.5 - fixed issue in "Updated watch layout", you should be able to see SHM Extra Steps...
+---
+### Phone 7.0.0
+
+Major Changes:
+- Added layout for beta testing, this layout will not be visible to anyone, only for those who have the beta key which i provide in my beta testing group - this makes beta testing easier, it  was requested by the beta testers...
+
+- Fixed incorrect message in easy connect, when you enter pairing code and proceed with auto connect, message shows pairing not required instead of pairing code...
+
+- Automated Watch companion install Permissions, if you install companion on your watch, it will be granted install permissions so you can update from the watch...
+
+- Updated watch layout, when you connect to your watch, if it has companion installed you will see at the very bottom a button, green if granted permission or red for missing permissions...
+
+Minor Changes:
+ - Removed garbage code and optimized the code, for better efficiency and performance....
+
+### Watch 6.5.0
+Major Changes:
+ - Updated the layout for check updates, now you will be able to see full version including patch number...
+
+Minor Changes:
+ - Removed garbage code and optimized the code, for better efficiency and performance....
+
+~~
+
+# History
+## 2024
+### Sept 2024
+#### 2nd Sept 2024 - Companion phone 6.6.5 and watch 6.0.1
+#### ** Watch & Phone Patches:
 > Phone 6.6.5 - polish easy connect interface, added timeout 10 seconds if easy connect does not succeed...
 
 > Phone 6.6.0 - polish easy connect interface and add ports for manual connect...
 
 > Patch 6.5.1 & 6.0.1 - handling version name shown incorrectly...
 ---
-### Phone 6.5.0
+#### Phone 6.5.0
 
 Major Changes:
  - Add Layout in Watch Tab, SHM MOD Extra Steps, visible when wirelessly  connected to your watch...
@@ -18,7 +56,7 @@ Minor Changes:
  - Small patches to connectivity for Watch Companion 6.0.0...
  - Translations added...
 
-### Watch 6.5.0
+#### Watch 6.5.0
 Major Changes:
  - Silent Send IP or Versions to Phone...
    *** Previously, when you press on your phone companion "Pull Network info" or "check for updates", it hangs a bit because the app tries to run on your watch, I have updated the logic to run in foreground, this reduces delay and improves responsiveness...
@@ -26,10 +64,6 @@ Major Changes:
 Minor Changes:
 - Translations added...
 
-~~
-
-# History
-## 2024
 ### May 2024
 #### 6th May 2024 - Companion phone 6.0.7 and watch 5.5.0
 #### Phone Patches:
