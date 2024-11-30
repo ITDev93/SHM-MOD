@@ -1,5 +1,7 @@
-# 29th Nov 2024 - Companion phone 7.1.0 and watch 6.5.0
+# 30th Nov 2024 - Companion phone 7.1.0 and watch 6.5.0
 ## ** Patches:
+> Phone 7.1.5 - Updated the adb server test, instead of locking the entire tab, it will lock only ADB section, and the get watch IP (since this is automated, it can open the easy connect), message will be shown "ADB Server Error", instead of "press connect to start"...
+
 > Phone 7.1.0:
 ---
 - Added ADB server test in background, if it fails to start, a message will pop-up, this is useful for cases like Oppo, Realme and OnePlus as people think they might be doing something wrong and waste many hours, not knowing the cause...
