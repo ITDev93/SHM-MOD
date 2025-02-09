@@ -1,3 +1,7 @@
+<div align="center">Phone Translations <a title="Crowdin" target="_blank" href="https://crowdin.com/project/shm-mod-companion-phone"><img src="https://badges.crowdin.net/shm-mod-companion-phone/localized.svg"></a>
+Watch Translations <a title="Crowdin" target="_blank" href="https://crowdin.com/project/shm-mod-companion-watch"><img src="https://badges.crowdin.net/shm-mod-companion-watch/localized.svg"></a></div>
+
+
 <div align="center">
 	<br>
 		<img src="imgs/header.svg" width="800" height="400">
