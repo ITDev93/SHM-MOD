@@ -1,4 +1,33 @@
-# 4th Sept 2024 - Phone (TIZEN & WEAROS) SHM MOD 1.3.2.016 + 1.3.3.002
+# 4th Sept 2024 - Phone WEAROS SHM MOD 1.4.1.006
+Android Manifest:
+- New ECG features added with several layouts...
+- SDK raised to 31 (Android 12) - not patchable...
+
+GUI:
+- Country Code JO (Jordan) and XX (Unknown) added...
+- new ECG strings added, instructions, warnings, tips...
+- ECG illustrations and images added...
+- ECG disclaimer observed "A single-lead ECG can't accurately classify other types of irregular heart rhythms, heart attack, stroke, high blood pressure, or other heart-related conditions."
+- Storage issues message observed for phone and watch...
+- Old ECG strings have been updated to follow the new ECG features, more classifications are added alongside description.
+
+CODE:
+- Code obscure is Observed!!!
+- Two ECG folders observed, from this, it is assumed new features were added side by side with old logic...
+- I was observed list of region restrictions updates (Check: https://t.me/xda_dante63/171)
+
+ADDITIONAL PATCHES:
+- I added support for Predictive Back Gestures (Android 13++)...
+- I fixed Android 15 UI overlap with nav and status bar (Samsung will address this in next update for sure)..
+
+~~
+
+# History
+> Some Old History does not have a detailed changelog, because I was only patching in the past
+
+## 2024
+### 4th Sept 2024 - Phone WEAROS SHM MOD 1.3.2.016 + 1.3.3.002
+---
 Android Manifest:
 - Sleep Apnea observed, added and activated...
 
@@ -18,13 +47,8 @@ CODE:
 
 Note:
 - There is a bug (including stock SHM), You may notice in Apnea tab, the button (instructions for use) does not work for some of you, it was fixed in a later release by hiding it depending on region, so ignore the button...
+---
 
-~~
-
-# History
-> Some Old History does not have a detailed changelog, because I was only patching in the past
-
-## 2024
 ### 8th April 2024 - Phone (TIZEN & WEAROS) SHM MOD 1.2.5.003
 Android Manifest:
 - Manifest shows line to use native-library libhal.wsm (deleted because this detects knox state and makes shm not work on custom/rooted Samsung)
