@@ -1,4 +1,33 @@
-# 4th Sept 2024 - Watch SHM MOD 1.3.2.025
+# 9th April 2025 - Watch SHM MOD - 1.4.1.006
+Android Manifest:
+- Nothing new observed...
+
+Files:
+- lib files v2 noticed for each old lib file, possible migration in the future?
+
+GUI:
+- Some images were updated to have new icons (from what it seems, they have forgotten to do it in previous release)
+- New ECG strings added, instructions, warnings, tips...
+- Few new Sleep Apnea strings observed...
+- ECG disclaimer observed "Don't use this ECG App to replace traditional methods of diagnosis and treatment by a qualified healthcare professional."
+
+CODE:
+- Code obscure is Observed!!!
+- ECG Emulator observed, probably to test ECG sensor and emulate cases to verify the written logic is correct...
+- Apnea logic seems to be more accurate and faster in making the report...
+
+ADDITIONAL PATCHES:
+- IHRN seems to be more stable with my latest patch..
+
+~~
+
+# History
+> The updates here are for WearOS only, Tizen does not have much as it's compiled bin/lib file...
+> Old History does not have detailed changelog, because I was only patching in the past
+
+## 2024
+### 4th Sept 2024 - Watch SHM MOD 1.3.2.025
+---
 Android Manifest:
 - Sleep Apnea observed, added and activated...
 - A lot of system permissions added, will be cleaned when patching to ensure signature verification not triggered nor conflict with stock shm...
@@ -12,14 +41,8 @@ CODE:
 - As suspected Apnea first restriction is UI6...
 - Apnea Countries: United States (US), South Korea (KR), Bolivia (BO), Chile (CL), United Arab Emirates (AE), Philippines (PH), Mauritius (MU), South Africa (ZA), Hong Kong (HK), Russia (RU), Georgia (GE), Azerbaijan (AZ), Peru (PE)
 - Animated Tiles require system level to run, changed into static images...
+---
 
-~~
-
-# History
-> The updates here are for WearOS only, Tizen does not have much as it's compiled bin/lib file...
-> Old History does not have detailed changelog, because I was only patching in the past
-
-## 2024
 ### 8th April 2024 - 1.2.6.002
 
 > Patch #1 - 14th May 2024 - This Patch is mainly for those with Custom ROM with device Spoofing that has Bluetooth Class not correctly configured by the ROM/Kernel developer...
