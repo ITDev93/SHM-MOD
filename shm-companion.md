@@ -1,6 +1,32 @@
-# 28th March 2025 - Companion phone 7.4.0 and watch 6.6.5
+# 10th June 2025 - Companion phone 7.7.0 and watch 6.7.0
 ## What's New:
-### Phone 7.4.0:
+### Phone 7.7.0:
+Major Changes:
+- Fixed an issue in Accessibility for vision impaired where the app crashes...
+- Enhanced logging, to make the app lighter on the phone memory...
+- Enhanced temp file creation logic, when selecting an apk, the app clones it internally to read and stream it to the watch, once done, the temp file is cleared...
+- Fixed the issue related to "Companion failed to identify the file installed" due to race condition, where code runs faster than apk install...
+- Migrated Guide layout from WearOS Manager into the companion, so in the future, the guide will be organized like WearOS Manager...
+
+### Watch 6.7.0:
+- This update includes checking if FRP is active, sadly, you cannot disable FRP via ADB or Code, As per my understanding, a clean reset will fix this and turn off FRP mode...
+A lot are facing issues in installing the update from the watch, and I spotted the same issue myself, it seems the watch is in FRP (Factory Reset Protection) secure mode, which prevents package installations. FRP is a security feature designed to block unauthorized software modifications, particularly after a factory reset. If FRP is active and you don't want to reset, you have to update the apps on Watch using the phone SHM MOD Companion...
+
+~~
+
+# History
+## 2025
+### March 2025
+#### 28th March 2025 - Companion phone 7.4.0 > 7.6.6 and watch 6.6.5
+#### ** Phone Patches:
+> Phone 7.6.6 - Enhanced Beta Tab (Allows beta testers to have better refresh and fetching for beta updates), Added Predictive Back Gestures (Android 13 and above), Fixed Install APK message (where it shows install failed despite success)
+
+> Phone 7.6.0 -  In preparation for the new SHM MOD, I have added version check for Android 12, Samsung has dropped support for Android versions 9, 10 and 11 - I have tried to patch that but the new app is too obscured and it is calling system framework jar, which is part of the Android OS, not something i can patch - new SHM MOD will have enhanced ECG logic, but available for phone with Android 12 and above...
+
+> Phone 7.5.0 - Beta testing tab had issues, so i have applied a fix for it...
+
+---
+#### Phone 7.4.0
 Major Changes:
 - Fixed Android 15 Theme - where app ui is overlapping with status bar...
 - Added message support the dev, your support is appreciated...
@@ -10,7 +36,7 @@ Minor Changes:
 - updated some libraries...
 - compressed some resources...
 
-### Watch 6.6.5:
+#### Watch 6.6.5:
 Major Changes:
 - Added Worker to enhance Version Check and IP fetch that is sent to the phone...
 - Fixed some bugs that i observed while revising the code...
@@ -18,13 +44,11 @@ Major Changes:
 Minor Changes:
 - updated some libraries...
 - compressed some resources...
+---
 
-~~
-
-# History
 ## 2024
 ### Nov 2024
-#### 30th Nov 2024 - Companion phone 7.4.0 and watch 6.6.5
+#### 30th Nov 2024 - Companion phone 7.0.0 > 7.2.0 and watch 6.5.0
 #### ** Phone Patches:
 > Phone 7.2.0 - Fixed a bug in grant watch companion install permissions, where button does not change to green after tapping... Raised SDK to 35 and updated libraries...
 
