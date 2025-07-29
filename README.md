@@ -7,6 +7,10 @@
 
 ---
 
+This does not work with One UI8, avoid opening issues and read this for more info: https://www.reddit.com/r/GalaxyWatch/comments/1m6ocv9/shm_mod_and_ui8
+
+---
+
 The main purpose of this Repo is to allow the SHM MOD Companion to read the Changelog, as I don't want to update the companion all the time just to update the Changelog...
 But I decided to make it as an alternative presentation to XDA, It might be more organized here...
 
