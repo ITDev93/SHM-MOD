@@ -7,6 +7,13 @@
 
 ---
 
+<div align="center">
+	<br>
+		<img src="imgs/file_00000000c78871f7bbcd697fc73a68ae.png" width="800" height="400">
+	<br>
+</div>
+
+
 This does not work with One UI8, avoid opening issues and read this for more info: https://www.reddit.com/r/GalaxyWatch/comments/1m6ocv9/shm_mod_and_ui8
 
 ---
