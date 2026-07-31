@@ -1,3 +1,13 @@
+> [!IMPORTANT]
+> SHM MOD was retired in September 2025.
+>
+> SHM MOD Companion has been replaced by **SHealth Companion**, a smaller utility focused on Samsung Health SetFeatures and SHM ECG Excel-to-PDF conversion.
+>
+> Visit the new repository:
+> https://github.com/ITDev93/SHealth-Companion
+>
+> For active ECG and blood-pressure development, use GeminiMan Wellness Companion.
+
 <div align="center">
 	<br>
 		<img src="imgs/header.svg" width="800" height="400">
@@ -109,7 +119,7 @@ It's an All-In-One Tool I have developed to make things easier for you:
  8. BP Sync Enabler...
  
  ## Where to download SHM MOD Companion...?
- Here you go: [Google Drive - SHM MOD Companion](https://drive.google.com/open?id=1xrIX5-MkObdiDiOjvoayu65F0oPKmINq)
+ Here you go: -
  
  ## Oh and if you want to enjoy other things I developed, then visit my website: https://geminiman.net/
  
