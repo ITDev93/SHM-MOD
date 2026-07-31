@@ -7,7 +7,6 @@
 > https://github.com/ITDev93/SHealth-Companion
 >
 > For active ECG and blood-pressure development, use GeminiMan Wellness Companion.
-> 
 > Repository for it: https://github.com/ITDev93/GeminiMan-Wellness-Companion
 > 
 
