@@ -100,7 +100,7 @@ One last note, disable any battery optimization; some phones have aggressive opt
 | Tizen (Active2 & Watch3 Only)  | WearOS (Watch4, Watch5 & Newer) |
 | ------------- | ------------- |
 | ![alt text](https://forum.xda-developers.com/data/attachments/3987/3987761-7dc49a030f60a468ba29d559aa389158.jpg "Tizen Phone App Logo") ![alt text](https://forum.xda-developers.com/data/attachments/3987/3987759-a5bbd202adce03db4d55c50525d9087c.jpg "Tizen Watch App Logo") | ![alt text](https://forum.xda-developers.com/data/attachments/3987/3987605-8f90c24f868731f21eb42ea90df74b72.jpg "WearOS Phone App Logo") ![alt text](https://forum.xda-developers.com/data/attachments/3987/3987607-dd87ef6e629693d0e1d1fd6431d79a55.jpg "WearOS Watch App Logo") |
-| https://drive.google.com/open?id=11ievXT0p86Py9vEAz9y8zh5ve9yLgQLn  | https://drive.google.com/open?id=138thPYPMbZIp2Us0Unx_h-SqJQEDxZ-0  |
+| -  | -  |
 
 # What's SHM MOD Companion...?
 Start with this Video:
